@@ -3,10 +3,10 @@ const cron = require("node-cron");
 
 //for testing purpose, am not hiding my api keys in .env file
 const T = new Twit({
-    consumer_key: "LJ55gVSi4Gi7glM1CKsTsRwrS",
-    consumer_secret: "2GJaJIoXgzv04eSUGsOxKU3INJJaIgro3uNHlrC6TnalTIO19F",
-    access_token: "1407635602103697410-6YYnQNFnOhd78MvyMOSWztjp1LMyfh",
-    access_token_secret: "DrWBrWlSDn8woV8ktf3mlhG7iUVZkfiWiMyVmIteJztSs",
+    consumer_key: "YOUR_CONSUMER_KEY",
+    consumer_secret: "YOUR_CONSUMER_SECRET",
+    access_token: "YOUR_ACCESS_TOKEN",
+    access_token_secret: "YOUR_ACCESS_SECRET",
 });
 
 //function used to convert standard time format into cron time format
